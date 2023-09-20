@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Appiumclass.SecondDay">
+      <class name="Appiumclass.LongPress">
         <methods>
-          <include name="getuser"/>
+          <include name="LongPressGesture"/>
         </methods>
-      </class> <!-- Appiumclass.SecondDay -->
+      </class> <!-- Appiumclass.LongPress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
