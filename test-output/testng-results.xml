@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-20T18:22:36 IST" name="Default suite" finished-at="2023-09-20T18:22:55 IST" duration-ms="18747">
+  <suite started-at="2023-09-21T18:05:45 IST" name="Default suite" finished-at="2023-09-21T18:06:08 IST" duration-ms="23765">
     <groups>
     </groups>
-    <test started-at="2023-09-20T18:22:36 IST" name="Default test" finished-at="2023-09-20T18:22:55 IST" duration-ms="18747">
-      <class name="Appiumclass.LongPress">
-        <test-method signature="LongPressGesture()[pri:0, instance:Appiumclass.LongPress@5c30a9b0]" started-at="2023-09-20T18:22:36 IST" name="LongPressGesture" finished-at="2023-09-20T18:22:55 IST" duration-ms="18699" status="PASS">
+    <test started-at="2023-09-21T18:05:45 IST" name="Default test" finished-at="2023-09-21T18:06:08 IST" duration-ms="23765">
+      <class name="Appiumclass.MisclaneousItems">
+        <test-method signature="MisclanousItems()[pri:0, instance:Appiumclass.MisclaneousItems@31d7b7bf]" started-at="2023-09-21T18:05:45 IST" name="MisclanousItems" finished-at="2023-09-21T18:06:08 IST" duration-ms="23715" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LongPressGesture -->
-      </class> <!-- Appiumclass.LongPress -->
+        </test-method> <!-- MisclanousItems -->
+      </class> <!-- Appiumclass.MisclaneousItems -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
