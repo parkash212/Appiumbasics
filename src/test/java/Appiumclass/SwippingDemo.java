@@ -35,7 +35,9 @@ driver.findElement(By.xpath("//android.widget.TextView[@text='1. Photos']")).cli
 
 //befoer swipping your focus should be on the first image and after one left swipe , the focus will be going to the 2nd image
 
-//so with the help of appium write a code that ist image focus should be true  and then apply swipe and then check it turning to false 
+//so with the help of appium write a code that ist image focus should be true  and then apply swipe and then check it turning to
+//false 
+
 // ist image
 WebElement firstimage = driver.findElement(By.xpath("//android.widget.ImageView[1]"));
 Assert.assertEquals(driver.findElement(By.xpath("//android.widget.ImageView[1]")).getAttribute("focusable"),"true");
@@ -46,7 +48,7 @@ Assert.assertEquals(driver.findElement(By.xpath("//android.widget.ImageView[1]")
 //direction and percentage is mandatory
 // here percentage is how much thumb size you have to give
 
-// apply wipe code
+// apply swipe code
 // now focus is on 2nd image - go to emulator and swipe to 2nd image
 
 

@@ -23,9 +23,7 @@ AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), optio
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
-		
-		// where to scroll is known prior
-		// here we use androiduiAutomator locator 
+		// where to scroll is known prior        // here we use androiduiAutomator locator 
 		// in google engine there is a class UiScrollable after this we have to call selector class
 		// this is a method = scrollIntoView
 		// what you want to scroll for this we have to give value of text

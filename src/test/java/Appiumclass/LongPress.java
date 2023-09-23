@@ -43,7 +43,8 @@ WebElement ele = driver.findElement(By.xpath("//android.widget.TextView[@text='P
 // now to perform long press -- for this we have to inject javascript
 // appium provide documentation READ IT FROM GOOGLE
 
-((JavascriptExecutor)driver).executeScript("mobile: longClickGesture", ImmutableMap.of("elementId",((RemoteWebElement)ele).getId(),"duration",2000));
+((JavascriptExecutor)driver).executeScript("mobile: longClickGesture", ImmutableMap.of("elementId",((RemoteWebElement)ele).getId()
+		,"duration",2000));
 
 String  ele2 = driver.findElement(By.id("android:id/title")).getText();
 Assert.assertEquals( ele2, "Sample menu");
